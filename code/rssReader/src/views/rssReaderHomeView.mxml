@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
 		xmlns:s="library://ns.adobe.com/flex/spark" title="HomeView">
+	<fx:Script>
+		<![CDATA[
+			protected function onClick(event:MouseEvent):void
+			{
+				NativeApplication.nativeApplication.exit();
+			}
+			protected function txtButton_clickHandler(event:MouseEvent):void
+			{
+				lblHello.text = "Hola Mundo!!!";
+			}
+		]]>
+	</fx:Script>
+	
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	
+	<s:actionContent>
+		<s:Button id="btnHome" label="Salir" click="onClick(event)"/>
+	</s:actionContent>
+	<s:Button id="txtButton" label="Clic me!!" click="txtButton_clickHandler(event)"/>
+	<s:Label id="lblHello" />
 </s:View>
