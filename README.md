@@ -1,4 +1,4 @@
-clasetest
+Clase de Prueba
 =========
 
-Teaching Git
+Enseñando GIT
