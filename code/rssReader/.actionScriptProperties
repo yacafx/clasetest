@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <actionScriptProperties analytics="false" mainApplicationPath="rssReader.mxml" projectUUID="f85d9481-9499-4fcf-a5ed-6078be81fda8" version="10">
+=======
+<actionScriptProperties analytics="false" mainApplicationPath="rssReader.mxml" projectUUID="daa4551e-abee-456f-a96d-4baa84588ade" version="10">
+>>>>>>> b4b1e83ee1d28f246858cc067e5060cbb8df7ab7
   <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
     <compilerSourcePath/>
     <libraryPath defaultLinkType="0">
